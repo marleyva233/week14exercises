@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<!-- meta tag -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+		<title>week 14 exercises</title>
 		<!-- font awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
@@ -12,15 +12,21 @@
 		<!-- my custom css -->
 		<link rel="stylesheet" href="css/main.css">
 	</head>
-	<body>
-		
-
-
-
-
-
-
-
+	<body class="bg-dark">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-10 text-light mx-auto pt-2">
+					<h3 class="text-center">Google Map API</h3>
+					<p>This week we are learning about APIs. We can use different methods to create a marker, zoom in, and disable controls, and many others. This is what Google Maps displays when you enter the Santa Monica pier coordinates.</p>
+				</div>
+			</div>
+		<!-- starting map -->
+			<div class="row">
+				<div class="col-10 bg-light mx-auto" id="myMap">
+				</div>
+			</div>
+		<!-- ending map -->
+		</div>
 		<!--jquery -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<!-- popper is required for bootstrap 4 js functionality -->
@@ -29,13 +35,7 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 		<!-- my custom js -->
 		<script type="text/javascript" src="js/main.js"></script>
+		<!-- google map -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWtmV6OlJAdpcA9Gz06ghL_y7Oxs2fflY&callback=myMap"></script>
 	</body>
 </html>
-
-
-
-
-
-
-
-
